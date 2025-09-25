@@ -1,5 +1,5 @@
 # 🌍 Hybrid CNN-ViT for Satellite Land Classification  
-![Python](https://img.shields.io/badge/python-3.1a-blue.svg) ![PyTorch](https://img.shields.io/badge/PyTorch-Framework-red.svg) ![TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-orange.svg)  
+![Python](https://img.shields.io/badge/python-3.11-blue.svg) ![PyTorch](https://img.shields.io/badge/PyTorch-Framework-red.svg) ![TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-orange.svg)  
 
 > A **hybrid Convolutional Neural Network (CNN) + Vision Transformer (ViT)** model for satellite image classification, distinguishing **agricultural vs. non-agricultural** land. Implemented in both **PyTorch** and **Keras/TensorFlow**.  
 
