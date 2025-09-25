@@ -1,30 +1,38 @@
-**Hybrid CNN-ViT for Satellite Image Classification**
-📌 Overview
+# 🌍 Hybrid CNN-ViT for Satellite Land Classification  
+![Python](https://img.shields.io/badge/python-3.1a-blue.svg) ![PyTorch](https://img.shields.io/badge/PyTorch-Framework-red.svg) ![TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-orange.svg)  
 
-This project implements and evaluates a hybrid Convolutional Neural Network (CNN) + Vision Transformer (ViT) model for satellite land classification, distinguishing agricultural vs. non-agricultural regions. Both PyTorch and Keras versions are provided.
+> A **hybrid Convolutional Neural Network (CNN) + Vision Transformer (ViT)** model for satellite image classification, distinguishing **agricultural vs. non-agricultural** land. Implemented in both **PyTorch** and **Keras/TensorFlow**.  
 
-⚙️ Key Features
+---
 
-Dataset: 6,000 satellite images (64×64 pixels)
+## 📌 Overview  
+This project demonstrates how to build and evaluate a **hybrid CNN-ViT model** for remote sensing land classification.  
+Both **PyTorch** and **Keras** implementations are included, achieving **near-perfect accuracy and ROC-AUC scores**.  
 
-Hybrid Model: CNN feature extractor + ViT with multi-head self-attention
+---
 
-Frameworks: Implemented in PyTorch and Keras/TensorFlow
+## ⚙️ Key Features  
+- 🛰️ **Dataset**: 6,000 satellite images (64×64 pixels)  
+- 🧩 **Hybrid Model**: CNN feature extractor + ViT with multi-head self-attention  
+- 🔧 **Frameworks**: PyTorch & Keras/TensorFlow implementations  
+- 📊 **Evaluation Metrics**: Accuracy, Precision, Recall, F1-score, ROC-AUC, Confusion Matrix, Classification Report  
 
-Evaluation Metrics: Accuracy, Precision, Recall, F1-score, ROC-AUC, Confusion Matrix, Classification Report
+---
 
-🏗️ Model Architecture
+## 🏗️ Model Architecture  
+- **CNN**: 6 convolutional layers extract low- and mid-level features  
+- **ViT**: Transformer encoder layers with positional embeddings & multi-head self-attention  
+- **Hybrid Classifier**: Combines CNN + ViT representations for final prediction  
 
-CNN: 6 convolutional layers for feature extraction
+---
 
-ViT: Transformer encoder layers with position embeddings
+## 📊 Results  
 
-Hybrid: CNN features fused with ViT representations for classification
+| Model          | Accuracy | ROC-AUC |
+|----------------|----------|---------|
+| **Keras Hybrid**   | 99.58%   | 99.98%  |
+| **PyTorch Hybrid** | 99.90%   | 100%    |
 
-📊 Results
+✅ Both frameworks deliver **state-of-the-art performance** on the satellite dataset.  
 
-Keras Model: 99.58% accuracy, 99.98% ROC-AUC
 
-PyTorch Model: 99.90% accuracy, 100% ROC-AUC
-
-Both implementations achieve near-perfect performance, showcasing the effectiveness of hybrid CNN-ViT models for remote sensing classification tasks.
