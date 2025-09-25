@@ -1,4 +1,4 @@
-Hybrid CNN-ViT for Satellite Image Classification
+**Hybrid CNN-ViT for Satellite Image Classification**
 📌 Overview
 
 This project implements and evaluates a hybrid Convolutional Neural Network (CNN) + Vision Transformer (ViT) model for satellite land classification, distinguishing agricultural vs. non-agricultural regions. Both PyTorch and Keras versions are provided.
